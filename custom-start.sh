@@ -1,0 +1,1 @@
+/usr/bin/yes y | ./setup.sh --host 0.0.0.0 --port 8000 --gpus 0,1 --model UD-Q4_K_XL --family unsloth --context 262144 --resident-budget-gib 80 --kv int8 --context 180000 --draft-vocab en --vision yes
